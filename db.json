@@ -1,9 +1,158 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products":[
+  {
+    "id":1,
+    "name": "iPhone 13",
+    "image": "https://images.unsplash.com/photo-1638038772924-ef79cce2426d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "The latest iPhone model with advanced features.",
+    "price": 999,
+    "category": "phones",
+    "subcategory": "iPhone",
+    "list_images":[
+      "https://images.unsplash.com/photo-1668184162572-4d21d85d8026?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aVBob25lJTIwMTN8ZW58MHwxfDB8fHwy",
+      "https://images.unsplash.com/photo-1668003378110-409e437b3332?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGlQaG9uZSUyMDEzfGVufDB8MXwwfHx8Mg%3D%3D"
+    ]
+  },
+  {
+    "id":2,
+    "name": "iPhone 12 Pro",
+    "image": "https://images.unsplash.com/photo-1611791484670-ce19b801d192?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aVBob25lJTIwMTIlMjBQcm98ZW58MHwxfDB8fHwy",
+    "description": "A high-end iPhone model with excellent camera capabilities.",
+    "price": 1099,
+    "category": "phones",
+    "subcategory": "iPhone",
+    "list_images":[
+      "https://images.unsplash.com/photo-1606341802409-aceb7ebbec1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGlQaG9uZSUyMDEyJTIwUHJvfGVufDB8MXwwfHx8Mg%3D%3D",
+      "https://images.unsplash.com/photo-1623621723875-8e5fe0eb1346?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGlQaG9uZSUyMDEyJTIwUHJvfGVufDB8MXwwfHx8Mg%3D%3D"
+    ]
+  },
+  {
+    "id":3,
+    "name": "Samsung Galaxy S21 Ultra",
+    "image": "https://images.unsplash.com/photo-1691449808501-f9c5a2030b63?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U2Ftc3VuZyUyMEdhbGF4eSUyMFMyMXxlbnwwfDF8MHx8fDI%3D",
+    "description": "A flagship smartphone with a stunning display and powerful camera system.",
+    "price": 1299,
+    "category": "phones",
+    "subcategory": "Samsung",
+    "list_images":["https://images.unsplash.com/photo-1612265152891-1e03ea654b0b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2Ftc3VuZyUyMEdhbGF4eSUyMFMyMXxlbnwwfDF8MHx8fDI%3D"]
+  },
+  {
+    "id":4,
+    "name": "Samsung Galaxy A52",
+    "image": "https://i.ebayimg.com/images/g/5oUAAOSwWIZlWbfA/s-l960.jpg",
+    "description": "A mid-range phone with a versatile camera setup and long battery life.",
+    "price": 399,
+    "category": "phones",
+    "subcategory": "Samsung",
+    "list_images":["https://i.ebayimg.com/images/g/mHsAAOSw4zNlWbfE/s-l960.jpg","https://i.ebayimg.com/images/g/04kAAOSw6ARlWbfU/s-l960.jpg","https://i.ebayimg.com/images/g/PNEAAOSwFjhlWbfY/s-l960.jpg"]
+  },
+  {
+    "id":5,
+    "name": "Realme 8 Pro",
+    "image": "https://images.unsplash.com/photo-1631871633283-31be5e55a29a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEzfHxSZWFsbWUlMjA4JTIwUHJvfGVufDB8MXwwfHx8Mg%3D%3D",
+    "description": "A mid-range smartphone with a high-resolution camera and fast charging support.",
+    "price": 299,
+    "category": "phones",
+    "subcategory": "realme",
+    "list_images":[]
+  },
+  {
+    "id":6,
+    "name": "Realme X3 SuperZoom",
+    "image": "https://m.media-amazon.com/images/I/41uIw84LnPL._AC_.jpg",
+    "description": "A budget-friendly phone with a powerful zoom camera and smooth performance.",
+    "price": 249,
+    "category": "phones",
+    "subcategory": "realme",
+    "list_images":[]
+  },
+  {
+    "id":7,
+    "name": "Xiaomi Redmi Note 10 Pro",
+    "image": "https://images.unsplash.com/photo-1635434651542-bcd747240352?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8WGlhb21pJTIwUmVkbWklMjBOb3RlJTIwMTAlMjBQcm98ZW58MHwxfDB8fHwy",
+    "description": "A budget-friendly smartphone with a high-refresh-rate display and solid performance.",
+    "price": 249,
+    "category": "phones",
+    "subcategory": "Xiaomi",
+    "list_images":[]
+  },
+  {
+    "id":8,
+    "name": "Xiaomi Mi 11 Ultra",
+    "image": "https://images.unsplash.com/photo-1598327106026-d9521da673d1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8WGlhb21pJTIwTWklMjAxMXxlbnwwfDF8MHx8fDI%3D",
+    "description": "A premium flagship phone with a top-of-the-line camera setup and powerful hardware.",
+    "price": 1099,
+    "category": "phones",
+    "subcategory": "Xiaomi",
+    "list_images":[]
+  },
+  {
+    "id":9,
+    "name": "MacBook Pro",
+    "image": "https://images.unsplash.com/photo-1604074131228-9d48b811bd80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TWFjQm9vayUyMFByb3xlbnwwfDF8MHx8fDI%3D",
+    "description": "A powerful laptop for professionals with stunning Retina display.",
+    "price": 1299,
+    "category": "laptops",
+    "list_images":[]
+  },
+  {
+    "id":10,
+    "name": "Dell XPS 13",
+    "image":"https://cdn.mos.cms.futurecdn.net/2BWCTBkzcxJHbDgT7B3xHZ.jpg",
+    "description": "An ultra-portable laptop with a sleek design and powerful performance.",
+    "price": 999,
+    "category": "laptops",
+    "list_images":[ "https://cdn.dxomark.com/wp-content/uploads/medias/post-151139/Dell-XPS-13-Plus-2022_featured-image-packshot-review.jpg"]
+  },
+  {
+    "id":11,
+    "name": "HP Spectre x360",
+    "image": "https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F08%2FHP-Spectre-x360-14-1-of-7.jpg&signature=b273734ba382a58d403431a960fd1708",
+    "description": "A versatile convertible laptop with impressive battery life.",
+    "price": 1199,
+    "category": "laptops",
+    "list_images":["https://m.media-amazon.com/images/I/81L+m0cYQgL._AC_UF894,1000_QL80_.jpg"]
+  },
+  {
+    "id":12,
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "image": "https://m.media-amazon.com/images/I/71IdnLez7TL._AC_UF894,1000_QL80_.jpg",
+    "description": "A premium business laptop with a durable design and exceptional performance.",
+    "price": 1499,
+    "category": "laptops",
+    "list_images":["https://cdn.mos.cms.futurecdn.net/eC22B3c22inunuYc7NkRAW-1200-80.jpg"]
+  },
+  {
+    "id":13,
+    "name": "Microsoft Surface Pro 4 ",
+    "image": "https://m.media-amazon.com/images/I/61c6NqpMUNL._AC_SL1200_.jpg",
+    "description": "A sleek and powerful laptop with a premium design and long-lasting battery life.",
+    "price": 1399,
+    "category": "laptops",
+    "list_images":[]
+  },
+  {
+    "id":14,
+    "name": "Google Pixel 6",
+    "image":"https://m.media-amazon.com/images/I/71SGl7xwR-L._AC_SL1500_.jpg"
+     ,
+    "description": "A flagship smartphone with an exceptional camera and seamless user experience.",
+    "price": 799,
+    "category": "phones",
+    "subcategory": "google",
+    "list_images":[
+      "https://www.zdnet.com/a/img/resize/d67d91282bde4701e874a1f8eccfc513b4c3fb3a/2021/10/19/6ba6c306-d808-45c2-936f-5662b42b1305/google-pixel-6-and-6-pro-1.jpg?auto=webp&fit=crop&height=1200&width=1200","https://m-cdn.phonearena.com/images/reviews/238921-image/Google-Pixel-6-Pro-Review-011.jpg?w=1"
+    ]
+  },
+  {
+    "id":14,
+    "name": "OnePlus 9 Pro",
+    "image": "https://i.ebayimg.com/images/g/W3cAAOSw0-NltAWH/s-l1600.jpg",
+    "description": "A high-performance smartphone with a smooth display and fast charging.",
+    "price": 899,
+    "category": "phones",
+    "subcategory": "OnePlus",
+    "list_images":[]
+  }
+]
 }
